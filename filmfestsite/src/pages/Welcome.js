@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import Welcome from '../components/Welcome';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import InfoSection1 from '../components/InfoSection1';
+// import InfoSection1 from '../components/InfoSection1';
 
 
 
@@ -22,7 +22,7 @@ const Home = () => {
         <div className="container-fluid">
            <Navbar/>
             <Welcome/>
-            <InfoSection1/>
+            {/* <InfoSection1/> */}
             <Footer/>
             
         </div>
